@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url("./images/paper.png") no-repeat center / cover;
+  font-family: cursive;
+  background-color: #502d16;
+}
+
+.drop-filter-shadow {
+  filter: drop-shadow(2px 0px 5px rgba(0, 0, 0, 0.5));
+}
