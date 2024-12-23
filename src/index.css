@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "myCustomFont";
+  src: url("/comicsans-MS.ttf") format("truetype");
+}
+
 body {
   background: url("/images/paper.png") no-repeat center / cover;
-  font-family: cursive;
+  font-family: "myCustomFont", sans-serif;
   background-color: #502d16;
 }
 
