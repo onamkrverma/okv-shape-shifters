@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { DndProvider } from "react-dnd";
-import { HTML5Backend } from "react-dnd-html5-backend";
+import { TouchBackend } from "react-dnd-touch-backend";
 import { useNavigate } from "react-router";
 import BackIcon from "../assets/back.svg?react";
 import ReplayIcon from "../assets/replay.svg?react";
@@ -91,7 +91,7 @@ const Game = () => {
   }, []);
 
   return (
-    <DndProvider backend={HTML5Backend}>
+    <DndProvider backend={TouchBackend} options={{ enableMouseEvents: true }}>
       <div className="flex flex-col items-center gap-4 py-8 ">
         <div className="w-full flex justify-between items-center mt-16 px-4 sm:m-0 sm:px-28">
           <button
