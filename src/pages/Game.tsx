@@ -114,7 +114,7 @@ const Game = () => {
               setAudioFile(InstrunctionAudio);
             }}
           >
-            <InfoIcon className="w-12 h-12 text-green-700" />
+            <InfoIcon className="w-12 h-12 text-green-600" />
           </button>
         </div>
 

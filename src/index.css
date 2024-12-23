@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: url("./images/paper.png") no-repeat center / cover;
+  background: url("/images/paper.png") no-repeat center / cover;
   font-family: cursive;
   background-color: #502d16;
 }
